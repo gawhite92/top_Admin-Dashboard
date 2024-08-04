@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: grid;
+    grid-template: 1fr 4fr / 1fr 5fr;
+    grid-template-areas: "sidebar header"
+                         "sidebar content";
+    height: 900px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.header {
+    grid-area: header;
+}
+
+.content {
+    grid-area: content;
+}
+
+
+
+
+.navbutton > img {
+    height: 50px;
+    width: 50px;
+    filter: invert(95%) sepia(95%) saturate(19%) hue-rotate(303deg) brightness(106%) contrast(104%);
+}
+
+
